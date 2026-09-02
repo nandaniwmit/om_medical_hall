@@ -1,0 +1,6 @@
+{
+  "name": "OM MEDICAL HALL",
+  "description": "Trusted Pharmacy and Medical Store in Manpur, Gaya, Bihar. Genuine medicines, healthcare products, baby care, surgical items, and medicine stock checker.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

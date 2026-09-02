@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="medGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A8F6A" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0A8F6A" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#ffffff"/>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#medGrad)" filter="url(#shadow)"/>
+  
+  <!-- Outer Ring / Caduceus / Medical Cross -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#ffffff" stroke-width="8" stroke-dasharray="16 8" opacity="0.4"/>
+  
+  <!-- Solid Medical Cross -->
+  <path d="M216 116 h80 v100 h100 v80 h-100 v100 h-80 v-100 h-100 v-80 h100 Z" fill="#ffffff" rx="16"/>
+  
+  <!-- Center Heart & Pulse Line -->
+  <circle cx="256" cy="256" r="44" fill="#0A8F6A"/>
+  <path d="M232 256 h12 l8 -16 l12 32 l10 -24 l8 8 h16" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Text Emblem -->
+  <text x="256" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="#ffffff" letter-spacing="2">OM MEDICAL</text>
+</svg>

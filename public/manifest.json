@@ -1,0 +1,29 @@
+{
+  "name": "OM MEDICAL HALL - Pharmacy & Healthcare",
+  "short_name": "OmMedicalHall",
+  "description": "Trusted Pharmacy & Healthcare Store in Manpur, Gaya, Bihar. Genuine medicines, healthcare products, prescription delivery, and stock checker.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A8F6A",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["medical", "health", "shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "192x192 256x256 384x384 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
